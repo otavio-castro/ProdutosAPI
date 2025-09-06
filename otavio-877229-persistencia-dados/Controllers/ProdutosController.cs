@@ -5,6 +5,7 @@ using otavio_877229_persistencia_dados.Models;
 
 namespace otavio_877229_persistencia_dados.Controllers
 {
+    [Route("api/produtos")]
     public class ProdutosController : ControllerBase
     {
         private readonly AppDbContext _context;
