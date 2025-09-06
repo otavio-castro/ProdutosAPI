@@ -1,0 +1,6 @@
+@otavio_877229_persistencia_dados_HostAddress = http://localhost:5234
+
+GET {{otavio_877229_persistencia_dados_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
