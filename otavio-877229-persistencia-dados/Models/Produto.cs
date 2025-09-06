@@ -8,7 +8,7 @@ namespace otavio_877229_persistencia_dados.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int ProdutoId { get; set; }
 
         [Required]
         [MaxLength(100)]

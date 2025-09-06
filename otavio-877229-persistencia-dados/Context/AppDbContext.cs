@@ -9,6 +9,6 @@ namespace otavio_877229_persistencia_dados.Context
         {
         }
 
-        DbSet<Produto>? Produtos { get; set; }
+       public DbSet<Produto> Produtos { get; set; }
     }
 }
